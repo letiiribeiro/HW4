@@ -5,14 +5,14 @@ In this assignment you'll use BDD & TDD to add a "find movies with same director
 
 1)	in your computer, create a directory named ```HW4/ ```
 
-2)	in your newly created HW4/ type:
+2)	in your newly created ```HW4/``` type:
 
 ```shell 
 		rails new rottenpotatoes –T 
 ```
-3)	in the parent directory of your HW4 folder, create a directory named GitClone.
+3)	create a directory named ```Temp``` in your ```HW4/ ```.
 
-4)	in the folder HW4/GitClone folder, clone the content of this github repo:  
+4)	in the folder ```HW4/Temp``` folder, clone the content of this github repo:  
 ```shell 
 		git clone git://github.com/Genaina/HW4
 ```
@@ -25,7 +25,7 @@ In this assignment you'll use BDD & TDD to add a "find movies with same director
 		config/routes.rb 
 		Gemfile
 ```
-6) make sure the installation is fine: 
+6) remove folder ```/Temp``` and make sure the installation is fine: 
 
 ```shell
 		rails s
@@ -36,7 +36,7 @@ In this assignment you'll use BDD & TDD to add a "find movies with same director
 Please now follow the instructions below to get setup:
 ----
 
-1) Change into the rottenpotatoes directory: cd bdd-tdd-cycle/rottenpotatoes  
+1) Change into the rottenpotatoes directory: cd HW4/rottenpotatoes  
 2) Run bundle install --without production to make sure all gems are properly installed.  
 3) Run bundle exec rake db:migrate to apply database migrations.  
 4) Finally, run these commands to set up the Cucumber directories (under features/) and RSpec directories (under spec/) if they don't already exist, allowing overwrite of any existing files:
