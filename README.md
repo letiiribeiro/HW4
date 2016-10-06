@@ -3,17 +3,17 @@ BDD, TDD Cycle
 
 In this assignment you'll use BDD & TDD to add a "find movies with same director" feature to RottenPotatoes.  Follow the steps below:
 
-1.	in your computer, create a directory named HW4/
-2.	in your newly created HW4/ type 
+1)	in your computer, create a directory named HW4/
+2)	in your newly created HW4/ type 
 ```shell 
-rails new rottenpotatoes –T 
+		rails new rottenpotatoes –T 
 ```
-3.	in the parent directory of your HW4 folder, create a directory named GitClone
-4.	in the folder HW4/GitClone folder, clone the content of this github repo:  
+3)	in the parent directory of your HW4 folder, create a directory named GitClone
+4)	in the folder HW4/GitClone folder, clone the content of this github repo:  
 ```shell 
-	git clone git://github.com/Genaina/HW4
+		git clone git://github.com/Genaina/HW4
 ```
-5.	copy all downloaded github content into HW4/rottenpotatoes and overwrite the following local directories or files: 
+5)	copy all downloaded github content into HW4/rottenpotatoes and overwrite the following local directories or files: 
 
 ```shell
 		app/ 
@@ -22,12 +22,12 @@ rails new rottenpotatoes –T
 		config/routes.rb 
 		Gemfile
 ```
-6. make sure the installation is fine: 
+6) make sure the installation is fine: 
 
 ```shell
-	rails s
+		rails s
 ```
-     and see rottenpotatoes on http://localhost:3000
+     you should see Rottenpotatoes on http://localhost:3000
 
 
 Please now follow the instructions below to get setup:
