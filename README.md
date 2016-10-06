@@ -17,7 +17,6 @@ In this assignment you'll use BDD & TDD to add a "find movies with same director
 		git clone git://github.com/Genaina/HW4
 ```
 5)	copy all downloaded github content into HW4/rottenpotatoes and overwrite the following local directories or files: 
-
 ```shell
 		app/ 
 		db/ 
@@ -25,13 +24,9 @@ In this assignment you'll use BDD & TDD to add a "find movies with same director
 		config/routes.rb 
 		Gemfile
 ```
-6) remove folder ```/Temp``` and make sure the installation is fine: 
+6) remove folder ```/Temp```
 
-```shell
-		rails s
-```
-     you should see Rottenpotatoes on http://localhost:3000
-
+7) create your HW4 git repository and push the content of your local HW4/rottenpotatoes
 
 Please now follow the instructions below to get setup:
 ----
