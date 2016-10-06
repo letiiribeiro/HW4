@@ -3,7 +3,7 @@ BDD, TDD Cycle
 
 In this assignment you'll use BDD & TDD to add a "find movies with same director" feature to RottenPotatoes.  Follow the steps below:
 
-1)	in your computer, create a directory named ```HW4/ ```.
+1)	in your computer, create a directory named ```HW4/ ```
 
 2)	in your newly created HW4/ type:
 
